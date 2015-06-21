@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+    <!-- Customize header  -->
+    <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+
+      <!-- Assign an id  -->
+      <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+        <attribute name="id">my_header</attribute>
+      </xpath>
+
+      <!-- Add an element after the top menu  -->
+      <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
+        <div id = "navbar-sub-main">
+        <div class="container">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">主页 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">企业简介</a></li>
+            <li><a href="#">最新公告</a></li>
+            <li class="divider"></li>
+            <li><a href="#">课件下载</a></li>
+            <li class="divider"></li>
+            <li><a href="#">模拟考题</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">课程导航 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">学前教育</a></li>
+            <li><a href="#">小学教育</a></li>
+            <li class="divider"></li>
+            <li><a href="#">初中教育</a></li>
+            <li class="divider"></li>
+            <li><a href="#">高中教育</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">师资力量 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">金牌教师</a></li>
+            <li><a href="#">明星学员</a></li>
+            <li class="divider"></li>
+            <li><a href="#">教学环境</a></li>
+            <li class="divider"></li>
+            <li><a href="#">教学理念</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">论坛 <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">学生论坛</a></li>
+            <li class="divider"></li>
+            <li><a href="#">家长论坛</a></li>
+            <li class="divider"></li>
+            <li><a href="#">教师论坛</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">申请入学</a></li>
+        <li><a href="#">我的作业</a></li>
+        <li><a href="#">考试成绩</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+        </div>
+        </div>
+      </xpath>
+    </template>
+  </data>
+</openerp>

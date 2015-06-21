@@ -9,14 +9,16 @@
 
     # templates
     'data': [
-        'views/options.xml',
-        'views/snippets.xml',
+        'views/assets.xml',
+        'views/layout.xml',
+        # 'views/options.xml',
+        # 'views/snippets.xml',
     ],
 
-    # demo pages
-    'demo': [
-        'demo/pages.xml',
-    ],
+    # # demo pages
+    # 'demo': [
+    #     'demo/pages.xml',
+    # ],
 
     # Your information
     'author': "Your Company",
