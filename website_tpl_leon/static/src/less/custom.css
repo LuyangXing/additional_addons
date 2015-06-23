@@ -1,0 +1,114 @@
+.btn-primary {
+  color: white;
+  background-color: brown;
+  border-color: brown;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  color: brown;
+  background-color: white;
+  border-color: brown;
+}
+.btn-sm {
+  color: brown;
+  background-color: white;
+  border-color: brown;
+}
+.btn-sm:hover,
+.btn-sm:focus,
+.btn-sm:active,
+.btn-sm.active {
+  color: brown;
+  background-color: white;
+  border-color: brown;
+}
+a {
+  color: brown;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: brown;
+}
+#wrapwrap {
+  background: url(/website_tpl_leon/static/src/img/library/bg/bg_brown.jpg) repeat;
+}
+#my_header .navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+#top_menu .active > a {
+  background-color: transparent;
+}
+#top_menu .open > a {
+  background-color: transparent;
+}
+#top_menu span {
+  color: brown;
+  font-size: smaller;
+}
+#navbar-sub-main {
+  background: url(/website_tpl_leon/static/src/img/library/bg/menu.jpg) no-repeat;
+  font-weight: bolder;
+}
+#navbar-sub-main .dropdown .dropdown-toggle {
+  color: white;
+}
+#navbar-sub-main .navbar-right li {
+  min-width: 100px;
+  text-align: center;
+}
+#navbar-sub-main .navbar-right li a {
+  background: url(/website_tpl_leon/static/src/img/library/bg/menu-02.png) center no-repeat;
+  color: white;
+}
+footer {
+  background: url(/website_tpl_leon/static/src/img/library/bg/footer.png) no-repeat;
+}
+footer #footer {
+  margin-top: 80px;
+}
+footer .text-muted {
+  color: #666666;
+}
+#em-r2 .panel {
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
+}
+#em-r2 .panel-title {
+  color: #666;
+  font-weight: bolder;
+}
+#em-r2 .panel-heading {
+  padding: 5px 15px;
+  background-color: transparent;
+  border-color: transparent;
+}
+#em-r2 .panel-body {
+  padding: 0px;
+}
+#em-r2 .panel-primary {
+  border-color: transparent;
+}
+#em-r2 li {
+  list-style-type: disc;
+}
+#em-r2 li a {
+  color: #666;
+}
+#em-r3 .panel {
+  background-color: transparent;
+  border: 1px solid brown;
+}
+#em-r3 .panel-heading {
+  background-color: transparent;
+}
+#em-r3 .panel-body {
+  border-top: 1px solid brown;
+}
