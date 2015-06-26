@@ -42,6 +42,15 @@ a:active,
 a.active {
   color: brown;
 }
+.dropdown-menu > .active a {
+  background-color: brown;
+}
+.dropdown-menu > .active a:hover,
+.dropdown-menu > .active a:focus,
+.dropdown-menu > .active a:active,
+.dropdown-menu > .active a.active {
+  background-color: brown;
+}
 #wrapwrap {
   background: url(/website_tpl_leon/static/src/img/library/bg/bg_brown.jpg) repeat;
 }
