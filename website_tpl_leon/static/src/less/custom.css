@@ -20,6 +20,13 @@
 .btn-link.active {
   color: brown;
 }
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:active,
+.nav-pills > li.active > a.active {
+  background-color: brown;
+}
 .btn-sm {
   color: brown;
   background-color: white;
@@ -137,4 +144,8 @@ footer .text-muted {
 }
 #em-r3 .panel-body {
   border-top: 1px solid brown;
+}
+.leon-bgc-w {
+  background-color: white;
+  border-bottom: 1px #ccc solid;
 }
