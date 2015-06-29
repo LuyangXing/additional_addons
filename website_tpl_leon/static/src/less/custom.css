@@ -99,14 +99,6 @@ footer #footer {
 footer .text-muted {
   color: #666666;
 }
-.zwjthpbgimg {
-  transition: none;
-  transform: translateX(-18.9%) translateY(34.5%) scaleX(1.65) scaleY(1.65);
-  animation-play-state: paused;
-  -webkit-transform: translateX(-18.9%) translateY(34.5%) scaleX(1.65) scaleY(1.65);
-  -moz-transform: translateX(-18.9%) translateY(34.5%) scaleX(1.65) scaleY(1.65);
-  -o-transform: translateX(-18.9%) translateY(34.5%) scaleX(1.65) scaleY(1.65);
-}
 #em-r2 .panel {
   background-color: transparent;
   border: 0px solid transparent;
