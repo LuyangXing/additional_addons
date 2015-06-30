@@ -16,54 +16,55 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+        <li class="active"><a href="/" class="leon-a-w">主页</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">主页 <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">讲堂简介 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">企业简介</a></li>
-            <li><a href="#">最新公告</a></li>
+            <li><a href="#"><del>讲堂简介</del></a></li>
+            <li><a href="/blog/1">最新公告</a></li>
             <li class="divider"></li>
-            <li><a href="#">课件下载</a></li>
+            <li><a href="#"><del>课件下载</del></a></li>
             <li class="divider"></li>
-            <li><a href="#">模拟考题</a></li>
+            <li><a href="#"><del>模拟考题</del></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">课程导航 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">学前教育</a></li>
-            <li><a href="#">小学教育</a></li>
+            <li><a href="#"><del>学前教育</del></a></li>
+            <li><a href="#"><del>小学教育</del></a></li>
             <li class="divider"></li>
-            <li><a href="#">初中教育</a></li>
+            <li><a href="#"><del>初中教育</del></a></li>
             <li class="divider"></li>
-            <li><a href="#">高中教育</a></li>
+            <li><a href="#"><del>高中教育</del></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">师资力量 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">金牌教师</a></li>
-            <li><a href="#">明星学员</a></li>
+            <li><a href="#"><del>金牌教师</del></a></li>
+            <li><a href="#"><del>明星学员</del></a></li>
             <li class="divider"></li>
-            <li><a href="#">教学环境</a></li>
+            <li><a href="#"><del>教学环境</del></a></li>
             <li class="divider"></li>
-            <li><a href="#">教学理念</a></li>
+            <li><a href="/page/ourphilosophy">教学理念</a></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">问答 <span class="caret"></span></a>
+          <a href="/forum/1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">问答 <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">学生问答</a></li>
+            <li><a href="/forum/2">学生问答</a></li>
             <li class="divider"></li>
-            <li><a href="#">家长问答</a></li>
+            <li><a href="/forum/3">家长问答</a></li>
             <li class="divider"></li>
-            <li><a href="#">教师问答</a></li>
+            <li><a href="/forum/4">教师问答</a></li>
           </ul>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">申请入学</a></li>
-        <li><a href="#">我的作业</a></li>
-        <li><a href="#">考试成绩</a></li>
+        <li><a href="/page/website.contactus">申请入学</a></li>
+        <li><a href="#"><del>我的作业</del></a></li>
+        <li><a href="#"><del>考试成绩</del></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
         </div>

@@ -79,6 +79,9 @@ a.active {
   background: url(/website_tpl_leon/static/src/img/library/bg/menu.jpg) no-repeat;
   font-weight: bolder;
 }
+#navbar-sub-main .leon-a-w {
+  color: white;
+}
 #navbar-sub-main .dropdown .dropdown-toggle {
   color: white;
 }
