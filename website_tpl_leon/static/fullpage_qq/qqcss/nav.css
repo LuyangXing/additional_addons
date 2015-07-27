@@ -1,0 +1,19 @@
+    /*专题导航*/
+    #topic_nav_box{width:100%;height:40px;background:#fff;overflow:visible;}
+    #topic_nav{width:960px;height:40px; margin:0 auto;padding:0;font-size:12px;font-family:"宋体","Arial Narrow"; background:#fff;clear:both;}
+    #topic_nav img{border:none;}
+    #topic_nav ul,#topic_nav li{margin:0;padding:0;list-style:none;}
+    #topic_nav .logo{float:left;padding:3px 8px 3px 10px;}
+    #topic_nav .link{float:left;width:340px;padding-top:5px}
+    #topic_nav .end{border:none;}
+    #topic_nav ul{float:right;padding:10px 3px 0 0;}
+    #topic_nav li{float:left;padding:0 8px;*padding-top:1px;border-right:#ddd 1px solid;line-height:12px;color:#666;}
+    #topic_nav a{color:#666; text-decoration:none;line-height:14px;}
+    #topic_nav a:visited{color:#666;}
+    #topic_nav a:hover{color:#666; text-decoration: underline;}
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+        /* Safari 3.0 and Opera 9 rules here */
+        #topic_nav{font-family:宋体, STSong;}
+    }
+    #site_nav_mblogin{margin-top:8px;}
+    #site_nav_mblogin a{line-height:24px;}

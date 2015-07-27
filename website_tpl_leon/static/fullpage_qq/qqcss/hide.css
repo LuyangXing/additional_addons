@@ -1,0 +1,7 @@
+body {
+	font: 16px/1.5 "Microsoft YaHei",Helvetica,STHeiti STXihei,Microsoft JhengHei,Arial;
+}
+
+#my_header, #navbar-sub-main, #footer, #custom_footer {
+    display:none;
+}
