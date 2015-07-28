@@ -1,0 +1,86 @@
+body {
+	font: 16px/1.5 "Microsoft YaHei", Helvetica, STHeiti STXihei, Microsoft JhengHei, Arial;
+}
+#my_header, #navbar-sub-main, #footer, #custom_footer {
+	display: none;
+}
+
+#thr_body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+#thr_banner {
+	background: url(../images/bg_01.jpg) no-repeat;
+	min-height: 800px;
+}
+#thr_main {
+	background: url(../images/bg_10.jpg) no-repeat;
+}
+
+#thr_main_a {
+	background: url(../images/bg_02.jpg) no-repeat;
+	min-height: 800px;
+}
+#thr_main_b {
+	background: url(../images/bg_03.jpg) no-repeat;
+	min-height: 800px;
+}
+#thr_main_c {
+	background: url(../images/bg_04.jpg) no-repeat;
+	min-height: 800px;
+}
+#thr_main_d {
+	background: url(../images/bg_05.jpg) no-repeat;
+	min-height: 800px;
+}
+
+.zz_main {
+	min-height: 800px;
+}
+
+.zz {
+	width: 100%;
+	margin-top: 270px;
+	margin-left: -100px;
+}
+.jz {
+	width: 150%;
+	margin-top: 300px;
+	margin-left: -250px;
+}
+
+.thr_abcd_main {
+	margin-top: 250px;
+	margin-bottom: 120px;
+}
+.thr_abcd_l {
+	min-height: 420px;
+	float: left;
+	margin-bottom: 180px;
+}
+.thr_abcd_r {
+	min-height: 420px;
+	float: right;
+	margin-bottom: 180px;
+}
+.xk {
+	background: url(../images/bd.png) no-repeat;
+	background-size: 95%;
+}
+.tx {
+	width: 100%;
+	margin-top: 56px;
+	margin-left: -30px;
+}
+.wz {
+	width: 100%;
+	margin-top: 30px;
+	margin-left: -25px;
+}
+.st {
+	width: 20%;
+	margin-top: -120px;
+	margin-left: 80px;
+}
