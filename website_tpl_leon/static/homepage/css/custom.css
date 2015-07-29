@@ -1,0 +1,25 @@
+.acco_box {
+    width:330px;
+    border:1px solid brown;
+}
+.acco_title {
+    line-height:26px;
+    padding-left:10px;
+    font-size:14px;
+    color: white;
+    background-color:brown;
+    border-bottom:1px solid grey;
+}
+.acco_title_on {
+    color: brown;
+    background-color:white;
+}
+.acco_content {
+    height:0;
+    padding:0 10px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    overflow:hidden;
+}
