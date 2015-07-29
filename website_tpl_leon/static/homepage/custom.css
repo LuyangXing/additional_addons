@@ -1,0 +1,23 @@
+.HackBox{
+    border-top:1px solid transparent !important;
+    margin-top:-1px !important;
+    border-top:0;
+    margin-top:0;
+    clear:both;
+    visibility:hidden;
+}
+
+.i_hb {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.i_zz {
+    margin-top: -100%;
+    margin-left: 10%;
+}
+
+.i_zl {
+    margin-top: 150%;
+    margin-left: 10%;
+}
