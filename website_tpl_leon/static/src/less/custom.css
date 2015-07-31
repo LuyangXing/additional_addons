@@ -60,6 +60,7 @@ a.active {
 }
 #wrapwrap {
   background: url(/website_tpl_leon/static/src/img/library/bg/bg_brown.jpg) repeat;
+  overflow-x: hidden;
 }
 #my_header .navbar-default {
   background-color: transparent;
