@@ -1,18 +1,20 @@
 .acco_box {
     width:330px;
-    border:1px solid brown;
+    border:1px solid #ccc;
 }
 .acco_title {
     line-height:26px;
     padding-left:10px;
     font-size:14px;
     color: white;
+    font-weight:bold;
     background-color:brown;
     border-bottom:1px solid grey;
 }
 .acco_title_on {
-    color: brown;
-    background-color:white;
+    color: white;
+    font-weight:bold;
+    background-color:brown;
 }
 .acco_content {
     height:0;

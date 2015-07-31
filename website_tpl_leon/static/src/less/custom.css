@@ -110,22 +110,22 @@ footer .text-muted {
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.05);
 }
 #em-r2 .panel-title {
-  color: #666;
+  color: white;
   font-weight: bolder;
 }
 #em-r2 .panel-heading {
   padding: 5px 15px;
-  background-color: transparent;
+  background-color: brown;
   border-color: transparent;
 }
 #em-r2 .panel-body {
   padding: 0px;
 }
 #em-r2 .panel-primary {
-  border-color: transparent;
+  border: 1px solid #ccc;
 }
 #em-r2 li {
-  list-style-type: disc;
+  list-style-type: none;
 }
 #em-r2 li a {
   color: #666;
