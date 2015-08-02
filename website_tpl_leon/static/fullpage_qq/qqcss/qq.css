@@ -508,11 +508,11 @@
             padding:0 35px 0 15px;
             color:#333;
             font-size:16px;
-            width:170px;
+            width:200px;
             height:36px;
             cursor:pointer;
             float:right;
-            background:#FFF78E url(http://mat1.gtimg.com/henan/huiyuan/bottom.gif) 180px center no-repeat;
+            background:#FFF78E url(http://mat1.gtimg.com/henan/huiyuan/bottom.gif) 160px center no-repeat;
             border-radius:10px
         }
         .selectList{
@@ -522,7 +522,7 @@
             background-color:#fff78e;
             border:1px solid #ffd100;
             border-radius:10px;
-            margin:0 0 0 80px;
+            margin:0 0 0 90px;
             overflow:hidden;
             padding:0 5px;
             width:208px;
