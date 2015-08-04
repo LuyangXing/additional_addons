@@ -493,7 +493,7 @@
         .select{
             width:280px;
             position:absolute;
-            left:72%;
+            left:68%;
             top:35px;
             z-index:100;
             animation-delay:1s;
@@ -985,7 +985,7 @@
         }
         .commentMain{
             width:900px;
-            height:500px;
+            height:510px;
             padding:10px;
             background-color:#2D83D0;
             overflow-x:hidden;
